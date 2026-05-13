@@ -16,6 +16,8 @@ const RESTAURANTS = [
   { name: 'กระทรวง',           emoji: '🏛️', color: '#d4d4f0', tagline: 'ไปกินที่กระทรวงงง 🍴' },
   { name: 'ตึก CP',           emoji: '🏢', color: '#c2e7d0', tagline: 'ตึก CP มีให้เลือกเพียบ~ 🛒' },
   { name: 'เต๋วเป็ด',           emoji: '🦆', color: '#ffb4a2', tagline: 'เป็ดพะโล้นัวๆ! 🍜' },
+  { name: 'king power',       emoji: '👑', color: '#e6c8a8', tagline: 'King Power จัดเต็ม! 👑' },
+  { name: 'ร้านสลัด',          emoji: '🥬', color: '#d3f0a8', tagline: 'สลัดเฮลตี้ฟิตหุ่น~ 💚' },
 ];
 
 const $ = (id) => document.getElementById(id);
