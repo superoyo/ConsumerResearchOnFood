@@ -9,6 +9,9 @@ const RESTAURANTS = [
   { name: 'เต๋วตึกแดง',        emoji: '🍜', color: '#ffadad', tagline: 'เต๋วตึกแดงเด็ดสุดดด 🏠' },
   { name: 'พอวา',             emoji: '🍱', color: '#ffc6ff', tagline: 'พอวาอร่อยจุงเบยย 💕' },
   { name: 'ตามสั่งตึกแดง',     emoji: '🥢', color: '#bdb2ff', tagline: 'จะสั่งอะไรก็ได้! 🍽️' },
+  { name: 'ร้านกินดี',         emoji: '🍚', color: '#ffd1dc', tagline: 'กินดีอยู่ดี~ 🌸' },
+  { name: 'ต.ต้มตุ๋น',          emoji: '🍲', color: '#b5ead7', tagline: 'ต้มตุ๋นเปื่อยๆ ฟินมาก! 🥣' },
+  { name: 'sushiro',          emoji: '🍣', color: '#ffc8a2', tagline: 'ซูชิจานเวียนรอเลย~ 🍱' },
 ];
 
 const $ = (id) => document.getElementById(id);
