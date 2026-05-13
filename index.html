@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>วันนี้กินร้านไหนดี? 🍽️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&family=Itim&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-deco" aria-hidden="true">
+    <span class="float f1">🍜</span>
+    <span class="float f2">🥢</span>
+    <span class="float f3">🍳</span>
+    <span class="float f4">🌶️</span>
+    <span class="float f5">🥗</span>
+    <span class="float f6">🦄</span>
+    <span class="float f7">🍱</span>
+    <span class="float f8">🥟</span>
+    <span class="float f9">⭐</span>
+    <span class="float f10">💖</span>
+  </div>
+
+  <main class="app">
+    <header class="hero">
+      <div class="mascot" id="mascot" aria-hidden="true">
+        <div class="mascot-body">
+          <div class="mascot-face">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="cheek left"></div>
+            <div class="cheek right"></div>
+            <div class="mouth"></div>
+          </div>
+        </div>
+        <div class="speech" id="speech">หิวมั้ยจ๊ะ~ 💕</div>
+      </div>
+      <h1>วันนี้กินร้านไหนดี<span class="qm">?</span> <span class="wiggle">🍽️</span></h1>
+      <p class="subtitle">หมุนวงล้อแล้วให้โชคชะตาเลือกร้านให้น้า~ ✨</p>
+    </header>
+
+    <section class="filters" aria-label="เลือกร้านที่จะเข้าวงล้อ">
+      <p class="filter-title">ร้านที่จะเข้าวงล้อ <span class="hint">(แตะเพื่อตัดออก)</span></p>
+      <div class="chips" id="restaurantChips"></div>
+    </section>
+
+    <section class="wheel-section">
+      <div class="wheel-wrap">
+        <div class="pointer" aria-hidden="true">
+          <div class="pointer-shape"></div>
+        </div>
+        <div class="wheel-container">
+          <canvas id="wheel" width="600" height="600"></canvas>
+          <button class="spin-center" id="spinBtn" type="button" aria-label="หมุนวงล้อ">
+            <span class="spin-text">หมุน!</span>
+          </button>
+        </div>
+        <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <div class="result-card hidden" id="resultCard" aria-live="polite">
+      <button class="close-btn" id="closeBtn" type="button" aria-label="ปิด">×</button>
+      <div class="result-header">
+        <span class="result-label">เย้ๆ ได้แล้ว!</span>
+      </div>
+      <div class="dish-emoji" id="dishEmoji">🍲</div>
+      <h2 class="dish-name" id="dishName">—</h2>
+      <p class="dish-tagline" id="dishTagline">ไปกินกันเลย! 🎉</p>
+      <div class="result-actions">
+        <button class="btn ghost" id="spinAgainBtn" type="button">
+          <span>🔄</span> หมุนใหม่
+        </button>
+      </div>
+    </div>
+
+    <section class="history-section">
+      <h3>🕘 สุ่มล่าสุด</h3>
+      <ul class="history" id="history">
+        <li class="history-empty">ยังไม่มีร้านที่สุ่ม... 🥺</li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>ทำด้วย 💖 สำหรับคนที่ตัดสินใจไม่ได้</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
