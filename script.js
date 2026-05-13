@@ -12,6 +12,10 @@ const RESTAURANTS = [
   { name: 'ร้านกินดี',         emoji: '🍚', color: '#ffd1dc', tagline: 'กินดีอยู่ดี~ 🌸' },
   { name: 'ต.ต้มตุ๋น',          emoji: '🍲', color: '#b5ead7', tagline: 'ต้มตุ๋นเปื่อยๆ ฟินมาก! 🥣' },
   { name: 'sushiro',          emoji: '🍣', color: '#ffc8a2', tagline: 'ซูชิจานเวียนรอเลย~ 🍱' },
+  { name: 'ข้าวหมกไก่',         emoji: '🍛', color: '#ffe8a3', tagline: 'ข้าวหมกไก่หอมเครื่องเทศ! 🧡' },
+  { name: 'กระทรวง',           emoji: '🏛️', color: '#d4d4f0', tagline: 'ไปกินที่กระทรวงงง 🍴' },
+  { name: 'ตึก CP',           emoji: '🏢', color: '#c2e7d0', tagline: 'ตึก CP มีให้เลือกเพียบ~ 🛒' },
+  { name: 'เต๋วเป็ด',           emoji: '🦆', color: '#ffb4a2', tagline: 'เป็ดพะโล้นัวๆ! 🍜' },
 ];
 
 const $ = (id) => document.getElementById(id);
